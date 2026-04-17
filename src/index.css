@@ -1,0 +1,60 @@
+.primary-bg {
+  background-color: #f8faf8;
+}
+.content-bg {
+  background-color: #f2f4f2;
+}
+.secondary-bg {
+  background-color: #6ba889;
+}
+.bg-orange {
+  background-color: #fc8a40;
+}
+.text-orange {
+  color: #fc8a40;
+}
+.text-green {
+  color: #6ba889;
+}
+.fs-xs {
+  font-size: clamp(10px, 2vw, 20px);
+}
+
+.fs-sm {
+  font-size: clamp(12px, 3vw, 30px);
+}
+
+.fs-md {
+  font-size: clamp(16px, 4vw, 40px);
+}
+
+.fs-lg {
+  font-size: clamp(20px, 5vw, 55px);
+}
+
+.fs-xl {
+  font-size: clamp(24px, 6vw, 70px);
+}
+
+.font-1 {
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+}
+.font-2 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+}
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(16px, 4vw, 40px);
+  padding-right: clamp(16px, 4vw, 40px);
+  max-width: 1200px;
+}
+.rounded {
+  border-radius: 50%;
+}
+body {
+  background-color: #f8faf8;
+}
