@@ -14,9 +14,11 @@ function Navbar() {
           {title}
         </div>
         <div className=" flex justify-end  items-center fs-xs font-2">
-          <p className="flex items-center gap-6 m-0 m-0 px-5 ">
+          <p className="flex items-center gap-6 m-0 m-0 px-5 cursor-pointer">
             {menus.map((m, index) => (
-              <span key={index}>{m.value}</span>
+              <span key={index} className=" text-black ">
+                {m.value}
+              </span>
             ))}
           </p>
           <i class="fa-regular fa-circle-user fs-md text-green"></i>

@@ -17,7 +17,7 @@
   color: #6ba889;
 }
 .fs-xs {
-  font-size: clamp(10px, 2vw, 20px);
+  font-size: clamp(5px, 2vw, 20px);
 }
 
 .fs-sm {
@@ -57,4 +57,7 @@
 }
 body {
   background-color: #f8faf8;
+}
+.h-fit {
+  height: fit-content;
 }
